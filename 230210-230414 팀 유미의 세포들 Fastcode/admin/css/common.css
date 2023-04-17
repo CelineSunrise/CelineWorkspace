@@ -93,6 +93,7 @@ body {
   --primary-n: #1d3557;
   --highlight-s: #457b9d;
   --highlight-m: #a8dad8;
+  --highlight-c: #3e88f1;
   --background-g: #e0e9ef;
   --background-w: #fff;
   --typography: #161616;
@@ -458,4 +459,11 @@ body {
   line-height: 81px;
   color: var(--primary-r);
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+.my_part {
+  color: var(--highlight-c);
+  font-weight: bold;
+}
+.hello {
+  color: var(--highlight-s);
 }
