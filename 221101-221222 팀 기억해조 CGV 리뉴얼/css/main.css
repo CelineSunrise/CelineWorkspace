@@ -388,7 +388,7 @@
     height: 108px;
     border-radius: 10px;
     border: 3px solid transparent;
-    background-image : linear-gradient(#fff, #fff), linear-gradient(137.16deg, #EF2C20 0%, #F14F3A 56.16%, #F7743A 90.71%, #EF642F 100.72%);
+    background-image : linear-gradient(#fff, #fff), linear-gradient(137.16deg, #EF2C08 0%, #F14F36 21.16%, #F7741C 41.71%, #EF6479 82.72%);
     background-origin: border-box;
     background-clip: content-box, border-box;
     box-sizing: border-box;
@@ -402,7 +402,7 @@
 
 .btn_spth_n:hover{
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
-    background-image : linear-gradient(137.16deg, #EF2C20 0%, #F14F3A 56.16%, #F7743A 90.71%, #EF642F 100.72%), linear-gradient(137.16deg, #EF2C20 0%, #F14F3A 56.16%, #F7743A 90.71%, #EF642F 100.72%);
+    background-image : linear-gradient(137.16deg, #EF2C08 0%, #F14F36 21.16%, #F7741C 41.71%, #EF6479 82.72%), linear-gradient(137.16deg, #EF2C08 0%, #F14F36 21.16%, #F7741C 41.71%, #EF6479 82.72%);
     background-origin: border-box;
     background-clip: content-box, border-box;
     border-radius: 10px;
@@ -450,7 +450,7 @@
     color: rgba(0, 0, 0, 0.8);
     border: 3px solid transparent;
     border-radius: 10px;
-    background-image:linear-gradient(#fff, #fff), linear-gradient(137.16deg, #EF2C20 0%, #F14F3A 56.16%, #F7743A 90.71%, #EF642F 100.72%);
+    background-image:linear-gradient(#fff, #fff), linear-gradient(137.16deg, #EF2C08 0%, #F14F36 21.16%, #F7741C 41.71%, #EF6479 82.72%);
     background-origin: border-box;
     background-clip: content-box, border-box;
     text-align: center;
@@ -462,7 +462,8 @@
 
 .btn_spth_m_n:hover{
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
-    background-image : linear-gradient(137.16deg, #EF2C20 0%, #F14F3A 56.16%, #F7743A 90.71%, #EF642F 100.72%), linear-gradient(137.16deg, #EF2C20 0%, #F14F3A 56.16%, #F7743A 90.71%, #EF642F 100.72%);
+    background-image : linear-gradient(137.16deg, #EF2C08 0%, #F14F36 21.16%, #F7741C 55.71%, #EF6479 91.72%), linear-gradient(137.16deg, #EF2C08 0%, #F14F36 21.16%, #F7741C 55.71%, #EF6479 91.72%);
+    /* background-image : linear-gradient(137.16deg, #EF2C20 0%, #F14F3A 56.16%, #F7743A 90.71%, #EF642F 100.72%), linear-gradient(137.16deg, #EF2C20 0%, #F14F3A 56.16%, #F7743A 90.71%, #EF642F 100.72%); */
     background-origin: border-box;
     background-clip: content-box, border-box;
     border-radius: 10px;

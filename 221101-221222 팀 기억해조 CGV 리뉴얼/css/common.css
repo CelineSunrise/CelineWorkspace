@@ -3,26 +3,29 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css');
 
 /* ----------------- 팝업창 --------------- */
+dialog {
+    position: absolute;
+    top: 80px;
+    z-index: 100;
+    border: none;
+    background: none;
+    left: 100px;
+    width: 550px;
+}
 .modal_box .warning{
     font-size: 16px;
     line-height: 27px;
     padding-top: 15px;
 }
 .modal_box{
-    position: fixed;
-    left: 80px;
-    top: 40px;
     background: #fff;
-    border: 7px solid transparent;
+    border: 8px solid transparent;
     border-radius: 20px;
-    width: 500px;
     font-size: 14px;
-    z-index: 100;  
-    border: 3px solid transparent;
-    background-image : linear-gradient(#fff, #fff), linear-gradient(137.16deg, #EF2C20 0%, #F14F3A 56.16%, #F7743A 90.71%, #EF642F 100.72%);
+    background-image: linear-gradient(#fff, #fff), linear-gradient(137.16deg, #EF2C08 0%, #F14F36 21.16%, #F7741C 41.71%, #EF6479 82.72%);
     background-origin: border-box;
     background-clip: content-box, border-box;
-    box-sizing: border-box; 
+    box-sizing: border-box;
 }
 .modal_list{
     padding: 20px 35px;
@@ -79,6 +82,7 @@
     cursor: pointer;
     border: none;
     background: #fff;
+    margin: 20px 20px 0 0;
 }
 .popup_check{
     display: flex;
@@ -531,4 +535,7 @@ h1{
 .my_part {
     font-weight: bold;
     color: #EF642F;
+}
+.modal_list a:hover span {
+    color: #EF2C20;
 }
