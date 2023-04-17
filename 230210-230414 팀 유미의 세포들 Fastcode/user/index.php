@@ -14,31 +14,37 @@
         <hr />
         <h2>※ 원활한 화면구현을 위해 최신 Browser를 사용해주세요.</h2>
         <hr />
-        <h2>※ USER 사용자 사이트 : 아이디- ah123 / 비밀번호- ah123</h2>
+        <h2>※ USER 사용자 사이트 : <span class="my_part">아이디- ah123 / 비밀번호- ah123</span></h2>
+        <h2>※ 강의실 페이지는 로그인 후에만 보이는 페이지입니다.<span class="my_part"> 반드시 회원가입 후, 혹은 위의 아이디로 로그인 후 이용해 주세요 :)</span></h2>
         <hr />
 
         <div class="modal_info">
+        <p><strong>전체 기획서 PDF</strong> <a href="https://drive.google.com/file/d/1qmMUB7of50bjmWzvebsGPyavDlTO9iCb/view?usp=share_link" target="_blank"><span class="my_part"> LMS 창작 사이트 FASTCODE 유저 페이지 기획서</span></a></p>
+                    <p><strong>기획서 개인 파트 요약본</strong> <a href="https://drive.google.com/file/d/1g1s0rSBoSKzo0o490vF5h5XhE2CyWoYM/view?usp=share_link" target="_blank"><span class="my_part"> LMS 창작 사이트 FASTCODE 유저 페이지 기획서 - 오나경</span></a></p>
           <p><strong>제작기간 :</strong> 2023.3.16 ~ 2023.4.14</p>
           <p><strong>특징 :</strong> HTML, CSS, Javascript, JQuery, PHP</p>
           <p>
             <strong>구현 완료 페이지 </strong> 
-            <br /><a href="lecture/lecture_list.php">강좌리스트</a> / <a href="leture/lecture_view.php?lecid=23">강좌 상세보기</a> / <a href="cart/cart.php">장바구니</a> / <a href="class/myclass.php">나의 강의실</a> / <a href="class/class_view.php">나의 강좌 보기</a> / <a href="member/login.php">로그인</a> / <a href="member/signup.php">회원가입</a> / <a href="index.php">Fastcode 메인</a>
+            <br /><a href="lecture/lecture_list.php">강좌리스트</a> / <a href="leture/lecture_view.php?lecid=23">강좌 상세보기</a> / <a href="cart/cart.php">장바구니</a> / <a href="class/myclass.php"><span class="my_part">나의 강의실</span></a> / <a href="class/class_view.php"><span class="my_part">나의 강좌 보기</span></a> / <a href="member/login.php">로그인</a> / <a href="member/signup.php">회원가입</a> / <a href="index.php">Fastcode 메인</a>
           </p>
-          <p><strong>팀원 :</strong> 장*홍, 오*경, 박*지, 손*진</p>
+          <p><strong>팀원 :</strong> <span class="my_part">오*경</span>, 장*홍, 박*지, 손*진</p>
         </div>
         <hr />
         <div class="modal_info_part">
           <strong>파트 분담</strong>
           <p><strong>기획 :</strong> 전원 참여</p>
+          <p><strong class="my_part">나의 강의실 페이지 디자인 & 구현 :</strong> <span class="my_part">오*경</span></p>
+        <p><strong class="my_part">나의 강좌 보기 페이지 디자인 & 구현 :</strong> <span class="my_part">오*경</span></p>
           <p><strong>강좌 리스트 페이지 디자인 & 구현 :</strong> 장*홍</p>
           <p><strong>강좌 상세보기 페이지 디자인 & 구현 :</strong> 장*홍</p>
           <p><strong>장바구니 페이지 디자인 & 구현 :</strong> 박*지</p>
-          <p><strong>나의 강의실 페이지 디자인 & 구현 :</strong> 오*경</p>
-        <p><strong>나의 강좌 보기 페이지 디자인 & 구현 :</strong> 오*경</p>
         <p><strong>로그인 페이지 디자인 & 구현 :</strong> 손*진</p>
         <p><strong>회원가입 페이지 디자인 & 구현 :</strong> 손*진</p>
         <p><strong>메인 페이지 디자인 & 구현 :</strong> 손*진</p>
         </div>
+        <hr />
+        <p><strong>Contact Me</strong></br><span class="my_part"> bebekook901@gmail.com</span></p>
+        <p><strong>Github </strong></br><a href="https://github.com/CelineSunrise/myWorkspace.git" target="_blank"><span class="my_part"> https://github.com/CelineSunrise/myWorkspace.git</span></a></p>
         <hr />
         <button>
           <i class="fa-solid fa-xmark"></i>

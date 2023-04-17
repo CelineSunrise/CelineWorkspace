@@ -4,10 +4,10 @@
 @import url(reset.css);
 /* POPUP */
 #popup {
-  width: 480px;
-   position: fixed;
+  width: 540px;
+   position: absolute;
    left: -65vw;
-   top: 45px;
+   top: 111px;
    background: #fff;
    border: 7px solid transparent;
    border-radius: 5px;
@@ -509,4 +509,9 @@ footer .footer_bottom .footer_copyright {
   flex: 1;
   text-align: right;
   align-self: flex-end;
+}
+
+.my_part {
+  color: var(--highlight-c);
+  font-weight: bold;
 }
