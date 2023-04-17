@@ -810,5 +810,8 @@ dialog .popup_close {
   color: #00b7ff;
 }
 dialog .popup-content a:hover {
-  color: #007eff;
+  color: var(--point);
+}
+.hello {
+  color: var(--primary);
 }
