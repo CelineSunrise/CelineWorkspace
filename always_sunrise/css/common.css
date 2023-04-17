@@ -1,0 +1,67 @@
+body {
+    font-family: 'AppleSDGothicNeo', 'Noto Sans KR', sans-serif;
+    color: #2F2D2D;
+    font-weight: 200;
+}
+::selection {
+    color: #FFFCF3;
+    background-color: #C6C2BF;
+}
+a {
+    text-decoration: none;
+    color: #2F2D2D;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 80px 50px 60px;
+    background: #fff;
+}
+header h1 {
+    font-weight: 800;
+    font-size: 32px;
+    letter-spacing: 0.05em;
+}
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 86px;
+
+}
+header nav ul li a {
+    font-weight: 300;
+    font-size: 14px;
+    letter-spacing: 0.05em;
+    position: relative;
+    z-index:1;
+}
+header nav ul li a:before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%) scale(0);
+    background: rgba(122,211,249,.6);
+    border-radius: 50%;
+    width: 31px;
+    height: 31px;
+    z-index: -1;
+    transition: transform 0.3s;
+}
+header nav ul li a:hover:before {
+    transform: translate(-50%,-50%) scale(100%);
+}
+header nav ul li + li:before {
+    content: '|';
+    color: #E2E2E2;
+    font-weight: 300;
+    font-size: 20px;
+    padding-right: 86px; 
+}
+
+/* header.hello {
+
+} */

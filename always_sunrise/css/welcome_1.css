@@ -1,0 +1,107 @@
+#welcome {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 22px;
+    letter-spacing: 0.075em;
+    font-size: 117px;
+    font-weight: 800;
+    animation: toMyWorld 6s forwards 0.45s;
+    overflow: hidden;
+    background-color: #FFF2F9;
+    z-index: 93;
+}
+#welcome b {
+    color: #FF8EBE;
+    animation: toMyWorld_b 6s forwards 0.45s;
+}
+#welcome span {
+    color: #fff;
+    /* animation: toMyWorld_span 6s forwards 0.45s; */
+    /* opacity: 0; visibility: hidden; */
+}
+#welcome em {
+    color: #FDF4F0;
+    animation: toMyWorld_em 6s forwards 0.45s;
+    opacity: 0; visibility: hidden;
+    font-weight: 700;
+}
+
+@keyframes toMyWorld {
+    0% {
+        /* background-color: #2F2D2D; */
+        background-color: #FFF2F9;
+    }
+    50% {background-color: #FDF4F0;
+    }
+    68% {background-color: #fff;left: 0;right: 0;bottom: 0;top: 0;opacity: 1; }
+    94%{opacity: 0;}
+    96%{background-color: #fff; opacity: 0; visibility: visible;}
+    100% {
+        background-color: transparent;opacity:0;visiblity:hidden;left: 0;right: 0;top: 0;bottom: 100%;
+    }
+}
+@keyframes toMyWorld_b {
+    0% {
+        color: #FF8EBE;
+        margin-top: 0;
+        opacity:1;
+    }
+    18%{
+        color: #FF8EBE;
+    }
+    26% {
+        margin-top: -117px;opacity: 0; visibility: hidden;
+    }
+    28%{color: #FDF4F0;opacity: 0; visibility: hidden;}
+    50% {margin-top: -234px;opacity: 0; visibility: hidden;}
+    100%{margin-top: -234px;opacity: 0; visibility: hidden;}
+}
+@keyframes toMyWorld_span {
+    0% {opacity: 0; visibility: hidden;}
+    20% {opacity: 1; visibility: visible;color: #fff;
+        margin-top: -58.5px;}
+    40.4% {opacity: 1; visibility: visible;color: #fff;
+        margin-top: -117px;}
+    40.5% {opacity: 0; visibility: hidden;color: #FDF4F0;
+        margin-top: -234px;}
+    100% {opacity: 0; visibility: hidden;}
+}
+@keyframes toMyWorld_em {
+    0% {opacity: 0; visibility: hidden;}
+    25% {opacity: 0; visibility: hidden;}
+    45% {
+        opacity: 1;
+        visibility: visible;
+        color:#7AD3F9;
+        letter-spacing: 0.08em;
+    }
+    65% {
+        letter-spacing: 0.02em;
+        color:#2F2D2D;
+    }
+    79% {
+        color: #2F2D2D;
+        letter-spacing: 0.05em;
+        margin-top: -117px;opacity: 1; visibility: visible;
+        }
+    90%{margin-top: -117px;color: #fff;opacity: 0;}
+    91%{
+        color: #fff;
+        letter-spacing: 0.05em;
+        margin-top: -163px;
+        opacity: 0; visibility: hidden;
+    }
+    100% {
+        color: #fff;
+        margin-top: -174px;
+        opacity: 0;
+        visibility: hidden;
+    }
+}
