@@ -44,7 +44,8 @@
         </div>
         <hr />
         <p><strong>Contact Me</strong></br><span class="my_part"> bebekook901@gmail.com</span></p>
-        <p><strong>Github </strong></br><a href="https://github.com/CelineSunrise/myWorkspace.git" target="_blank"><span class="my_part"> https://github.com/CelineSunrise/myWorkspace.git</span></a></p>
+        <p><strong>LMS 창작 Fastcode Github </strong></br><a href="https://github.com/CelineSunrise/fastcode.git" target="_blank"><span class="my_part"> https://github.com/CelineSunrise/fastcode.git</span></a></p>
+        <p><strong>My Portfolio Github </strong></br><a href="https://github.com/CelineSunrise/myWorkspace.git" target="_blank"><span class="my_part"> https://github.com/CelineSunrise/myWorkspace.git</span></a></p>
         <hr />
         <button>
           <i class="fa-solid fa-xmark"></i>
