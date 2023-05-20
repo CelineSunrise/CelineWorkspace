@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/yournotes/static/css/main.f7a9ffca.css",
+    "main.js": "/yournotes/static/js/main.ff51d3ae.js",
+    "static/js/787.4be9d3ec.chunk.js": "/yournotes/static/js/787.4be9d3ec.chunk.js",
+    "static/media/AppleSDGothicNeoR.woff": "/yournotes/static/media/AppleSDGothicNeoR.c868beecefa267d7aa3e.woff",
+    "static/media/AppleSDGothicNeoM.woff": "/yournotes/static/media/AppleSDGothicNeoM.3874ecaca835cc6f2ad7.woff",
+    "static/media/AppleSDGothicNeoL.woff": "/yournotes/static/media/AppleSDGothicNeoL.29572d11395eb4468710.woff",
+    "static/media/HelveticaNeueLTPro-Th.woff": "/yournotes/static/media/HelveticaNeueLTPro-Th.bc622866e566518febcd.woff",
+    "static/media/HelveticaNeueLTPro-Roman.woff": "/yournotes/static/media/HelveticaNeueLTPro-Roman.186624aef53543516a18.woff",
+    "static/media/view-btn.svg": "/yournotes/static/media/view-btn.c98b42ba32ce5819806b.svg",
+    "static/media/sun.svg": "/yournotes/static/media/sun.c97657a42d42126bd6c1b9e1d68728ce.svg",
+    "static/media/hashtag.svg": "/yournotes/static/media/hashtag.01ffcedb6225144641f2.svg",
+    "index.html": "/yournotes/index.html",
+    "static/media/plus.svg": "/yournotes/static/media/plus.6245fec511753b0ef367d5ea5d8f6089.svg",
+    "static/media/line.svg": "/yournotes/static/media/line.e1480d4d9465f0624bf34ab1aeef7c99.svg",
+    "main.f7a9ffca.css.map": "/yournotes/static/css/main.f7a9ffca.css.map",
+    "main.ff51d3ae.js.map": "/yournotes/static/js/main.ff51d3ae.js.map",
+    "787.4be9d3ec.chunk.js.map": "/yournotes/static/js/787.4be9d3ec.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f7a9ffca.css",
+    "static/js/main.ff51d3ae.js"
+  ]
+}
