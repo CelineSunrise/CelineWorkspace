@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/yournotes/static/css/main.0150fb2b.css",
-    "main.js": "/yournotes/static/js/main.e54c374f.js",
+    "main.css": "/yournotes/static/css/main.8695c6cd.css",
+    "main.js": "/yournotes/static/js/main.eafe4511.js",
     "static/js/787.4be9d3ec.chunk.js": "/yournotes/static/js/787.4be9d3ec.chunk.js",
     "static/media/AppleSDGothicNeoR.woff": "/yournotes/static/media/AppleSDGothicNeoR.c868beecefa267d7aa3e.woff",
     "static/media/AppleSDGothicNeoM.woff": "/yournotes/static/media/AppleSDGothicNeoM.3874ecaca835cc6f2ad7.woff",
@@ -17,12 +17,12 @@
     "static/media/plus-d.svg": "/yournotes/static/media/plus-d.047c50d526a611708505cca63aabc6c2.svg",
     "static/media/plus.svg": "/yournotes/static/media/plus.6245fec511753b0ef367d5ea5d8f6089.svg",
     "static/media/line.svg": "/yournotes/static/media/line.e1480d4d9465f0624bf34ab1aeef7c99.svg",
-    "main.0150fb2b.css.map": "/yournotes/static/css/main.0150fb2b.css.map",
-    "main.e54c374f.js.map": "/yournotes/static/js/main.e54c374f.js.map",
+    "main.8695c6cd.css.map": "/yournotes/static/css/main.8695c6cd.css.map",
+    "main.eafe4511.js.map": "/yournotes/static/js/main.eafe4511.js.map",
     "787.4be9d3ec.chunk.js.map": "/yournotes/static/js/787.4be9d3ec.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0150fb2b.css",
-    "static/js/main.e54c374f.js"
+    "static/css/main.8695c6cd.css",
+    "static/js/main.eafe4511.js"
   ]
 }
